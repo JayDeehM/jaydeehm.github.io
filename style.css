@@ -147,7 +147,7 @@ p {
 }
 
 #aw {
-  margin: 400px 0px 68px 230px;
+  margin: 400px 0px 70px 230px;
 }
 
 #aa {
@@ -193,4 +193,17 @@ p {
   border-radius: 0%;
   width: 30%;
   height: 30%;
+}
+
+#oth {
+  margin-top: 200px;
+  margin-left: 230px;
+  margin-bottom: 300px;
+}
+
+#oth h9 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 80px;
+  margin: 0px 0px 0px -135px;
 }
