@@ -145,3 +145,52 @@ p {
 #ppp {
   margin: 65px 0px 0px 120px;
 }
+
+#aw {
+  margin: 400px 0px 68px 230px;
+}
+
+#aa {
+  width: 350px;
+  height: 310px;
+  margin: -70px 0px 0px 45px;
+}
+
+#aw h7, h8 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 80px;
+}
+
+#aw h7 {
+  margin: 0px 0px 0px -100px;
+}
+
+#aww {
+  width: 350px;
+  height: 310px;
+  margin: 0px 0px 0px 0px;
+}
+
+#aw h8 {
+  margin: 0px 0px 0px -50px;
+}
+
+#aw  iframe {
+  margin-left: 170px;
+}
+
+#paint {
+  border-radius: 50%;
+  width: 205px;
+  height: 150px;
+  margin-top: -197px;
+  margin-left: 60px;
+}
+
+#paint:hover {
+  transition-duration: 0.4s;
+  border-radius: 0%;
+  width: 30%;
+  height: 30%;
+}
