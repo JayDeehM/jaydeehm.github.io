@@ -9,6 +9,7 @@ $(document).on('click', 'button', function(event){
 
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
+
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
@@ -22,15 +23,25 @@ $(document).ready(function () {
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    $('.current button').each(function () {
+    $('.navigation button').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.current button').removeClass("active");
+            $('.navigation button').removeClass("active");
             currLink.addClass("active");
         }
         else{
             currLink.removeClass("active");
         }
     });
+}
+
+function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+    document.getElementById("body").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("body").style.marginLeft= "0";
 }

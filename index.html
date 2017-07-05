@@ -3,24 +3,28 @@
 <html>
 <head>
   <title>JD</title>
-
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
     <script src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="java.js"></script>
+    <script type="text/javascript" src="java1.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <header>
 
     <div class="top">
-      <h1>Jay.Deeh</h1>
+      <button id="meh">Jay.Deeh</button><br>
     </div>
 
-    <div class="side">
+    <div>
+      <button onclick="openNav()" id="nav"><img src="images/burger.png" id="burger">Navigation</button>
+    </div>
 
-      <div class="current">
+    <div class="sidebar" id="sidebar">
+
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <div class="navigation">
           <button href="#home" class="active">HOME</button><br>
           <button href="#bio">BIO</button><br>
           <button href="#pp">PERSONAL PROJECTS</button><br>
@@ -37,7 +41,7 @@
     </div>
 
 </header>
-<body>
+<body id="body">
 
       <div id="home">
         <img src="images/logo.png" id="logo">
@@ -48,8 +52,8 @@
         <h2>io</h2>
         <h3>Jay.Deeh</h3>
           <p>I'm a 17 year old artist who discovered the art</p>
-          <p>the art of programming/coding. I'm currently looking for</p>
-          <p>challenges for me to be able to share my talents as an artist.</p>
+          <p>of programming/coding. I'm currently looking for</p>
+          <p>challenges for me to be able to share my talent as an artist.</p>
         <h4>Got any challenges?</h4>
       </div>
 

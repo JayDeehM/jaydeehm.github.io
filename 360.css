@@ -1,0 +1,206 @@
+@media screen and (max-width: 360px)
+
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah|Indie+Flower');
+
+body {
+  background: radial-gradient(ellipse at center,  #ffffff 0%,#f2f2f2 300px)
+}
+
+.top {
+  margin: 11px 0px 0px 9px;
+  background-color: transparent;
+  position: fixed;
+  float: left;
+  padding: 0px 95px 9px 95px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  border-top: 1px solid rgb(51, 51, 51);
+  border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.side {
+  margin: 101px 0px 0px 9px;
+  background-color: transparent ;
+  position: fixed;
+  float: left;
+  padding: 343px 55px 60px 69px;
+  font-family: 'Architects Daughter', cursive;
+  border-left: 1px solid rgb(51, 51, 51);
+  border-right: 1px solid rgb(51, 51, 51);
+}
+
+.current {
+  padding: 0px 0px 0px 0px;
+  list-style-type: none;
+  margin: -347px 34px 0px 6px;
+  text-align: center;
+}
+
+.social {
+  margin-left: 38px;
+}
+
+#icon {
+  width: 30px;
+  height: 30px;
+  padding: 0px 0px 0px 0px;
+}
+
+.current button {
+  width: 166px;
+  border-style: none;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+
+.current button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: line-through;
+}
+
+#logo {
+  width: 700px;
+  height: 700px;
+  margin-left: 500px;
+  margin-top: -12px;
+}
+
+#bio h2, h3, h4 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+}
+
+#bio h3, h4 {
+  font-size: 40px;
+}
+
+#bio h2 {
+  padding: 0px 0px 0px 0px;
+  margin: -135px 0px 0px 147px;
+  font-size: 80px;
+}
+
+p {
+  font-family: 'Architects Daughter', cursive;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+#bio {
+  margin-left: 500px;
+  margin-bottom: 500px;
+}
+
+#bio h4 {
+  margin-left: 400px;
+}
+
+#fbio {
+  width: 350px;
+  height: 310px;
+  margin-left: -150px;
+  margin-top: 60px;
+}
+
+#pp {
+  margin-top: 300px;
+  margin-left: 500px;
+  margin-bottom: 300px;
+}
+
+#pp h5, h6 {
+  font-size: 80px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+}
+
+#pp h5 {
+  margin: -100px 0px 0px 140px;
+}
+
+#pp h6 {
+  margin: -135px 0px 0px 370px;
+}
+
+#fw {
+  width: 350px;
+  height: 310px;
+  margin: 50px 0px 0px -150px;
+}
+
+#fd {
+  width: 350px;
+  height: 310px;
+  margin: -195px 0px 0px 125px;
+}
+
+#ppp {
+  margin: 65px 0px 0px 120px;
+}
+
+#aw {
+  margin: 400px 0px 70px 230px;
+}
+
+#aa {
+  width: 350px;
+  height: 310px;
+  margin: -70px 0px 0px 45px;
+}
+
+#aw h7, h8 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 80px;
+}
+
+#aw h7 {
+  margin: 0px 0px 0px -100px;
+}
+
+#aww {
+  width: 350px;
+  height: 310px;
+  margin: 0px 0px 0px 0px;
+}
+
+#aw h8 {
+  margin: 0px 0px 0px -50px;
+}
+
+#aw  iframe {
+  margin-left: 170px;
+}
+
+#paint {
+  border-radius: 50%;
+  width: 205px;
+  height: 150px;
+  margin-top: -197px;
+  margin-left: 60px;
+}
+
+#paint:hover {
+  transition-duration: 0.4s;
+  border-radius: 0%;
+  width: 30%;
+  height: 30%;
+}
+
+#oth {
+  margin-top: 200px;
+  margin-left: 230px;
+  margin-bottom: 301px;
+}
+
+#oth h9 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 80px;
+  margin: 0px 0px 0px -136px;
+}
