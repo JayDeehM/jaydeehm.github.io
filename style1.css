@@ -6,7 +6,7 @@ body {
 }
 
 #main {
-  margin-top: -100px;
+  margin-top: -50px;
 }
 
 #meh {
@@ -305,8 +305,8 @@ p {
   margin: 0px auto;
 }
 
-#awcontent  iframe {
-  margin: 0px auto;
+.row  iframe {
+  margin: 14px auto;
   float: left;
 }
 
@@ -336,7 +336,7 @@ p {
 }
 
 #oth {
-  max-width: 2200px;
+  max-width: 1200px;
   text-align: center;
 }
 
@@ -349,7 +349,7 @@ p {
   width: 30%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1vw;
+  margin: 20px;
   float: left;
 }
 

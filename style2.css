@@ -7,6 +7,97 @@
     position: fixed;
 }
 
+#body {
+  margin-top: 310px;
+}
 
+
+/*-----navigation and social media-----*/
+#burger {
+  width: 40px;
+  height: 40px;
+}
+
+#nav {
+  margin-left: -1px;
+  margin-top: 3px;
+}
+
+#hotdog {
+  width: 40px;
+  height: 40px;
+}
+
+#soc {
+  margin-left: 50px;
+  margin-top: 3px;
+}
+
+/*-----content restyling-----*>
+/*--home--*/
+#intro {
+  margin-left: -15px;
+}
+
+/*--bio--*/
+#a {
+  margin-left: -40px;
+}
+
+#fbio {
+  width: 60%;
+  height: 60%;
+}
+
+#bio h4{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/*--projects--*/
+.b {
+  margin-top: -300px;
+  margin-left: -20px;
+}
+
+#fp {
+  width: 70%;
+  height: 70%;
+  margin-left: -20px;
+}
+
+/*--artworks--*/
+#c {
+  margin-top: -500px;
+}
+
+#aa {
+  width: 80%;
+  height: 80%;
+}
+
+.row iframe {
+  width: 90%;
+  height: 20%;
+}
+
+#polaroidaw {
+  width: 87%;
+}
+
+/*--others--*/
+#d {
+  margin-top: -80px;
+  margin-left: -17px;
+}
+
+#other {
+  width: 70%;
+  height: 70%;
+}
+
+#polaroidoth {
+  width: 90%;
+}
 
 }
