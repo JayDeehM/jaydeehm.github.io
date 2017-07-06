@@ -45,3 +45,13 @@ function closeNav() {
     document.getElementById("sidebar").style.width = "0";
     document.getElementById("body").style.marginLeft= "0";
 }
+
+function openNav1() {
+    document.getElementById("social_media").style.width = "250px";
+    document.getElementById("body").style.marginLeft = "250px";
+}
+
+function closeNav1() {
+    document.getElementById("social_media").style.width = "0";
+    document.getElementById("body").style.marginLeft= "0";
+}

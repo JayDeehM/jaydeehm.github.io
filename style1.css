@@ -1,32 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah|Indie+Flower');
 
 body {
-  background: radial-gradient(ellipse at center,  #ffffff 0%,#f2f2f2 300px)
+  background: radial-gradient(ellipse at center,  #ffffff 0%,#f2f2f2 300px);
+  width:100%;
+}
+
+#main {
+  margin-top: -100px;
 }
 
 #meh {
-  margin: 11px 0px 0px 9px;
   background-color: transparent;
   position: fixed;
-  float: left;
-  padding: 10px 70px 10px 70px;
+  float: right;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 30px;
   color: black;
-  border-left-style: none;
-  border-right-style: none;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-style: none;
   border-color: black;
+  font-size: 30px;
 }
 
+#fixed-top {
+  width: 100%;
+  background-color: white;
+}
+
+#navbar {
+  max-width: 1000px;
+}
+
+#sidenavigation {
+  float: left;
+}
+
+.top {
+  float: right;
+  display: block;
+}
+
+/*------------navigation-------------*/
+
 #burger {
-  width: 85px;
-  height: 85px;
+  width: 55px;
+  height: 55px;
 }
 
 #nav {
-  margin: 65px 0px 0px 9px;
   background-color: transparent;
   padding-left: 0px;
   position: fixed;
@@ -36,10 +55,8 @@ body {
   font-family: 'Gloria Hallelujah', cursive;
   color: black;
   font-size: 20px;
+  margin-top: -5px;
 }
-
-
-/*navigation*/
 
 .sidebar {
     height: 100%;
@@ -61,6 +78,8 @@ body {
   background-color: transparent;
   font-family: 'Gloria Hallelujah', cursive;
   border-style: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .sidebar button:hover, .offcanvas button:focus{
@@ -96,28 +115,101 @@ body {
 }
 
 
-/*content styling*/
+/*----------social media side--------*/
 
-#logo {
-  width: 700px;
-  height: 700px;
-  margin-left: 350px;
-  margin-top: -40px;
+#hotdog {
+  width: 55px;
+  height: 55px;
 }
 
-#bio h2, h3, h4 {
+#soc {
+  background-color: transparent;
+  padding-left: 0px;
+  position: fixed;
+  float: left;
+  padding: auto;
+  border-style: none;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 20px;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+.social_media {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.social button {
+  padding: 8px 8px 8px 32px;
+  display: block;
+  transition: 0.3s;
+  background-color: transparent;
+  font-family: 'Gloria Hallelujah', cursive;
+  border-style: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.social button:hover, .offcanvas button:focus{
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.social_media .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/*----------content styling----------*/
+
+/*home*/
+
+#intro {
+  width: 100%;
+  margin-bottom: 170px;
+}
+
+#home {
+  max-width: 1200px;
+}
+
+#logo {
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin: 0px auto;
+  padding: auto;
+  text-align: center;
+}
+
+/*bio*/
+
+#a {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#bio h3, h4 {
   font-family: 'Gloria Hallelujah', cursive;
   color: black;
 }
 
 #bio h3, h4 {
   font-size: 40px;
-}
-
-#bio h2 {
-  padding: 0px 0px 0px 0px;
-  margin: -135px 0px 0px 147px;
-  font-size: 80px;
 }
 
 p {
@@ -127,8 +219,11 @@ p {
 }
 
 #bio {
-  margin-left: 370px;
-  margin-bottom: 500px;
+  margin: auto;
+  display: block;
+  max-width: 2200px;
+  text-align: center;
+  margin-bottom: 300px;
 }
 
 #bio h4 {
@@ -136,125 +231,133 @@ p {
 }
 
 #fbio {
-  width: 350px;
-  height: 310px;
-  margin-left: -150px;
-  margin-top: 60px;
-}
-
-#pp {
-  margin-top: 300px;
-  margin-left: 370px;
-  margin-bottom: 300px;
-}
-
-#pp h5, h6 {
-  font-size: 80px;
-  font-family: 'Gloria Hallelujah', cursive;
-  color: black;
-}
-
-#pp h5 {
-  margin: -100px 0px 0px 140px;
-}
-
-#pp h6 {
-  margin: -135px 0px 0px 370px;
-}
-
-#fw {
-  width: 350px;
-  height: 310px;
-  margin: 50px 0px 0px -150px;
-}
-
-#fd {
-  width: 350px;
-  height: 310px;
-  margin: -195px 0px 0px 125px;
-}
-
-#ppp {
-  margin: 65px 0px 0px 120px;
-}
-
-#aw {
-  margin: 400px 0px 70px 120px;
-}
-
-#aa {
-  width: 350px;
-  height: 310px;
-  margin: -70px 0px 0px 45px;
-}
-
-#aw h7, h8 {
-  font-family: 'Gloria Hallelujah', cursive;
-  color: black;
-  font-size: 80px;
-}
-
-#aw h7 {
-  margin: 0px 0px 0px -100px;
-}
-
-#aww {
-  width: 350px;
-  height: 310px;
-  margin: 0px 0px 0px 0px;
-}
-
-#aw h8 {
-  margin: 0px 0px 0px -50px;
-}
-
-#aw  iframe {
-  margin-left: 170px;
-}
-
-#paint {
-  border-radius: 50%;
-  width: 205px;
-  height: 150px;
-  margin-top: -197px;
-  margin-left: 60px;
-}
-
-#paint:hover {
-  transition-duration: 0.4s;
-  border-radius: 0%;
   width: 30%;
   height: 30%;
 }
 
+/*projects*/
+
+#fp {
+  width: 30%;
+  height: 30%;
+  margin: 50px 0px 0px -150px;
+}
+
+.b {
+  width: 100%;
+  margin-bottom: 550px;
+}
+
+#pp {
+  margin: auto;
+  display: block;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#pros {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+#polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1vw;
+  float: left;
+}
+
+#polaroid:hover {
+  border: 2px solid #777;
+}
+
+#container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#pp {
+  margin-bottom: 100px;
+}
+
+/*art works*/
+
+#c {
+  width: 100%;
+  margin-bottom: 170px;
+}
+
+#aw {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#aa {
+  width: 30%;
+  height: 30%;
+}
+
+#awcontent {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+#awcontent  iframe {
+  margin: 0px auto;
+  float: left;
+}
+
+#polaroidaw {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1vw;
+  float: left;
+}
+
+#polaroidaw:hover {
+  border: 2px solid #777;
+}
+
+#containeraw {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+/*others*/
+
+#d {
+  width: 100%;
+  padding-bottom: 300px;
+}
+
 #oth {
-  margin-top: 200px;
-  margin-left: 230px;
-  margin-bottom: 301px;
+  max-width: 2200px;
+  text-align: center;
 }
 
-#oth h9 {
-  font-family: 'Gloria Hallelujah', cursive;
-  color: black;
-  font-size: 80px;
-  margin: 0px 0px 0px -136px;
+#other {
+  width: 30%;
+  height: 30%;
 }
 
-/*360*/
-
-@media screen and (max-width: 480px){
-
-
-.top {
-    padding: 0px 100px 9px 100px;
-    display: block;
-    margin: 0px 0px 0px 20px;
-    position: fixed;
+#polaroidoth {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1vw;
+  float: left;
 }
 
-.sidebar {
-  margin: 88px 0px 0px 27px;
+#polaroidoth:hover {
+  border: 2px solid #777;
 }
 
-
+#containeroth {
+  text-align: center;
+  padding: 10px 20px;
 }
