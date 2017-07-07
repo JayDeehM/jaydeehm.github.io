@@ -8,7 +8,7 @@
 }
 
 #body {
-  margin-top: 310px;
+  margin-top: 60px;
 }
 
 
@@ -36,7 +36,9 @@
 /*-----content restyling-----*>
 /*--home--*/
 #intro {
-  margin-left: -15px;
+  margin-left: -2px;
+  margin-top: 220px;
+  margin-bottom: 220px;
 }
 
 /*--bio--*/
@@ -57,7 +59,7 @@
 /*--projects--*/
 .b {
   margin-top: -300px;
-  margin-left: -20px;
+  margin-left: -2px;
 }
 
 #fp {
@@ -69,6 +71,7 @@
 /*--artworks--*/
 #c {
   margin-top: -500px;
+  margin-left: 15px;
 }
 
 #aa {
@@ -88,7 +91,7 @@
 /*--others--*/
 #d {
   margin-top: -80px;
-  margin-left: -17px;
+  margin-left: -8px;
 }
 
 #other {
