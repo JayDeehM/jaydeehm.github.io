@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah|Indie+Flower');
 
 body {
-  background: radial-gradient(ellipse at center,  #ffffff 0%,#f2f2f2 300px);
   width:100%;
+  background-image: url("images/white_wall/white_wall.png");
 }
 
 #main {
@@ -204,12 +204,9 @@ body {
 }
 
 #bio h3, h4 {
+  font-size: 40px;
   font-family: 'Gloria Hallelujah', cursive;
   color: black;
-}
-
-#bio h3, h4 {
-  font-size: 40px;
 }
 
 p {
@@ -224,10 +221,6 @@ p {
   max-width: 2200px;
   text-align: center;
   margin-bottom: 300px;
-}
-
-#bio h4 {
-  margin-left: 400px;
 }
 
 #fbio {
@@ -267,6 +260,9 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 1vw;
   float: left;
+  border: 2px solid white;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
 }
 
 #polaroid:hover {
@@ -296,8 +292,8 @@ p {
 }
 
 #aa {
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
 }
 
 #awcontent {
@@ -316,6 +312,9 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 1vw;
   float: left;
+  border: 2px solid white;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
 }
 
 #polaroidaw:hover {
@@ -351,6 +350,9 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 20px;
   float: left;
+  border: 2px solid white;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
 }
 
 #polaroidoth:hover {
